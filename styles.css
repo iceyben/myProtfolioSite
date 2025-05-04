@@ -18,7 +18,7 @@
 }
 
 .icons{
-    @apply  text-2xl text-[#94a3b8]
+    @apply  text-2xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce
 }
 
 .title{
@@ -42,6 +42,6 @@
 }
 
 .btn-click{
-    @apply text-white bg-[#5eead4] w-full text-sm py-2 font-bold rounded-sm hover:bg-[#87c4ba] hover:border-2 hover:border-[#5eead4]
+    @apply text-white bg-[#5eead4] w-full text-sm py-2 font-bold rounded-sm hover:bg-[#87c4ba] hover:border-2 hover:border-[#5eead4] hover:animate-bounce
 }
 
