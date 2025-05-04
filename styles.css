@@ -1,8 +1,5 @@
 @import "tailwindcss";
-@theme{
-    extend:{},
-    colors:{}
-}
+
 
 .hero{
     @apply p-8
@@ -36,4 +33,15 @@
     @apply  bg-[#2DD4BF1A] p-2 space-x-2
 }
 
+.title-sticky{
+    @apply sticky top-0  bg-[#0f172a] mb-4
+}
+
+.input-style{
+    @apply bg-[#cbd5e1] text-[#64748b] p-1 mt-1 text-sm w-full mb-4 rounded-sm
+}
+
+.btn-click{
+    @apply text-white bg-[#5eead4] w-full text-sm py-2 font-bold rounded-sm hover:bg-[#87c4ba] hover:border-2 hover:border-[#5eead4]
+}
 
