@@ -1,0 +1,39 @@
+@import "tailwindcss";
+@theme{
+    extend:{},
+    colors:{}
+}
+
+.hero{
+    @apply p-8
+}
+
+.hero-name{
+    @apply text-2xl font-bold mb-4
+}
+
+.hero-work{
+    @apply text-lg text-[#cbd5e1]
+}
+
+.pramary-p{
+    @apply text-sm mt-4 text-[#64748b]
+}
+
+.icons{
+    @apply  text-2xl text-[#94a3b8]
+}
+
+.title{
+    @apply p-8 text-lg
+}
+
+.text-hover{
+    @apply hover:text-[#5eead4]
+}
+
+.tech-used{
+    @apply  bg-[#2DD4BF1A] p-2 space-x-2
+}
+
+
