@@ -45,3 +45,15 @@
     @apply text-white bg-[#5eead4] w-full text-sm py-2 font-bold rounded-sm hover:bg-[#87c4ba] hover:border-2 hover:border-[#5eead4] hover:animate-bounce
 }
 
+.links{
+    @apply hidden  lg:flex
+}
+
+.navbar{
+    @apply flex justify-between py-4 z-50 bg-[#0f172a] fixed w-full top-0 px-18 shadow-lg
+}
+
+.nav-btn{
+    @apply bg-orange-500 p-2 rounded-full px-3 shadow-lg 
+}
+
