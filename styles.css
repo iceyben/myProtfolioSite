@@ -50,7 +50,7 @@
 }
 
 .navbar{
-    @apply flex justify-between py-4 z-50 bg-[#0f172a] fixed w-full top-0 px-18 shadow-lg
+    @apply flex justify-between py-4 z-50 bg-[#0f172a] fixed w-full top-0 px-8 shadow-lg
 }
 
 .nav-btn{
