@@ -2,27 +2,27 @@
 
 
 .hero{
-    @apply p-8
+    @apply p-8 
 }
 
 .hero-name{
-    @apply text-2xl font-bold mb-4
+    @apply text-2xl font-bold mb-4 sm:text-4xl sm:*:mb-6
 }
 
 .hero-work{
-    @apply text-lg text-[#cbd5e1]
+    @apply text-lg text-[#cbd5e1] sm:text-xl
 }
 
 .pramary-p{
-    @apply text-sm mt-4 text-[#64748b]
+    @apply text-sm mt-4 text-[#64748b] sm:text-xl font-bold
 }
 
 .icons{
-    @apply  text-2xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce
+    @apply  text-2xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce sm:text-5xl
 }
 
 .title{
-    @apply p-8 text-lg
+    @apply p-8 text-lg sm:text-xl
 }
 
 .text-hover{
