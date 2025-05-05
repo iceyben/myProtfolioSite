@@ -42,18 +42,18 @@
 }
 
 .btn-click{
-    @apply text-white bg-[#5eead4] w-full text-sm py-2 font-bold rounded-sm hover:bg-[#87c4ba] hover:border-2 hover:border-[#5eead4] hover:animate-bounce
+    @apply text-white bg-[#0f172a] w-full text-sm py-2 font-bold rounded-sm hover:bg-orange-500 hover:border-2 hover:border-[#0f172a] hover:animate-bounce shadow-xl
 }
 
 .links{
-    @apply hidden  lg:flex
+    @apply hidden  lg:flex hover:text-orange-500 hover:animate-bounce
 }
 
 .navbar{
-    @apply flex justify-between py-4 z-50 bg-[#0f172a] fixed w-full top-0 px-8 shadow-lg
+    @apply flex justify-between py-4 z-50 bg-[#0f172a] fixed w-full top-0 px-8 shadow-lg sm:px-20 
 }
 
 .nav-btn{
-    @apply bg-orange-500 p-2 rounded-full px-3 shadow-lg 
+    @apply bg-orange-500 p-2 rounded-full px-3 shadow-lg hover:bg-[#0f172a] hover:border-2 hover:border-orange-500
 }
 
