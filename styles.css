@@ -22,7 +22,7 @@
 }
 
 .title{
-    @apply p-8 text-lg sm:text-xl
+    @apply px-8  text-lg sm:text-xl
 }
 
 .text-hover{
@@ -57,3 +57,6 @@
     @apply bg-orange-500 p-2 rounded-full px-3 shadow-lg hover:bg-[#0f172a] hover:border-2 hover:border-orange-500
 }
 
+.service-card{
+    @apply  my-4 bg-white text-[#0f172a] text-center items-center p-4 rounded-lg shadow-lg 
+}
