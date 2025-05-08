@@ -18,7 +18,8 @@
 }
 
 .icons{
-    @apply  text-4xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce sm:text-5xl
+    @apply  text-4xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce sm:text-5xl focus:text-orange-500 focus:animate-bounce
+    active:text-orange-500 active:animate-bounce animate-bounce
 }
 
 .title{
@@ -26,7 +27,7 @@
 }
 
 .text-hover{
-    @apply hover:text-[#5eead4]
+    @apply hover:text-[#5eead4] focus:text-[#5eead4] active:text-[#5eead4]
 }
 
 .tech-used{
