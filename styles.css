@@ -19,7 +19,7 @@
 
 .icons{
     @apply  text-4xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce sm:text-5xl focus:text-orange-500 focus:animate-bounce
-    active:text-orange-500 active:animate-bounce animate-bounce
+    active:text-orange-500 active:animate-bounce 
 }
 
 .title{

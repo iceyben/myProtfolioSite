@@ -516,7 +516,6 @@
   }
 }
 .icons {
-  animation: var(--animate-bounce);
   font-size: var(--text-4xl);
   line-height: var(--tw-leading, var(--text-4xl--line-height));
   color: #94a3b8;
