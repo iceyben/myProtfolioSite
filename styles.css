@@ -18,7 +18,7 @@
 }
 
 .icons{
-    @apply  text-2xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce sm:text-5xl
+    @apply  text-4xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce sm:text-5xl
 }
 
 .title{
@@ -58,5 +58,5 @@
 }
 
 .service-card{
-    @apply  my-4 bg-white text-[#0f172a] text-center items-center p-4 rounded-lg shadow-lg 
+    @apply  my-4 bg-white text-[#0f172a] text-center items-center px-4 py-6 rounded-lg shadow-lg 
 }
