@@ -18,22 +18,16 @@
 }
 
 .icons{
-    @apply  text-4xl text-[#94a3b8]  hover:animate-bounce sm:text-5xl focus:text-orange-500 focus:animate-bounce
-    
+    @apply  text-4xl text-[#94a3b8] hover:text-orange-500 hover:animate-bounce sm:text-5xl focus:text-orange-500 focus:animate-bounce
+active:text-orange-500 active:animate-bounce
 }
-
-.icons:hover{
-    color: #F97316;
-}
-
 
 .title{
     @apply px-8  text-lg sm:text-xl
 }
 
-.text-hover:hover{
-    color: #5eead4;
-   
+.text-hover{
+    @apply hover:text-[#5eead4]
 }
 
 .tech-used{
@@ -49,12 +43,7 @@
 }
 
 .btn-click{
-    @apply text-white bg-[#0f172a] w-full text-sm py-2 font-bold rounded-sm hover:animate-bounce shadow-xl
-}
-
-.btn-click:hover{
-    background-color: #F97316;
-    border: 2px solid #0f172a;
+    @apply text-white bg-[#0f172a] w-full text-sm py-2 font-bold rounded-sm hover:bg-orange-500 hover:border-2 hover:border-[#0f172a] hover:animate-bounce shadow-xl
 }
 
 .links{
@@ -66,16 +55,9 @@
 }
 
 .nav-btn{
-    @apply bg-orange-500 p-2 rounded-full px-3 shadow-lg 
-}
-
-.nav-btn:hover{
-    border: 2px solid #F97316;
-    background-color: transparent;
+    @apply bg-orange-500 p-2 rounded-full px-3 shadow-lg hover:bg-[#0f172a] hover:border-2 hover:border-orange-500
 }
 
 .service-card{
     @apply  my-4 bg-white text-[#0f172a] text-center items-center px-4 py-6 rounded-lg shadow-lg 
 }
-
-
